@@ -19,7 +19,7 @@
     <!-- <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script> -->
     <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
 
-    <title>DayStar | Admin Login</title>
+    <title>DayStar | Admin Sign Up</title>
   </head>
   <body>
     <div id="login" class="mt-5">
@@ -43,16 +43,7 @@
                   width="100"
                 />
                 <!-- <h3 class="text-center mb-5">Login</h3> -->
-                <!--                 
-                <div class="col-md-6">
-                  <label for="inputEmail4" class="form-label">Email</label>
-                  <input type="email" class="form-control" id="inputEmail4">
-                </div>
-                <div class="col-md-6">
-                  <label for="inputPassword4" class="form-label">Password</label>
-                  <input type="password" class="form-control" id="inputPassword4">
-                </div> -->
-
+                
                 <div class="form-group">
                   <label for="username" class="text-black"
                     >Username <span class="required">*</span></label
@@ -61,7 +52,18 @@
                     type="text"
                     name="username"
                     id="username"
-                    class="form-control mb-3"
+                    class="form-control mb-3" placeholder="Godfrey"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="username" class="text-black"
+                    >Email <span class="required">*</span></label
+                  ><br />
+                  <input
+                    type="text"
+                    name="username"
+                    id="username"
+                    class="form-control mb-3" placeholder="daystar.ac.org"
                   />
                 </div>
                 <div class="form-group">
@@ -73,11 +75,11 @@
                     name="password"
                     id="password"
                     class="form-control mb-4"
-                  />
+                  /> <span><i class="bi-search icon"></i></span> 
                 </div>
                 <div class="form-group">
                   <label for="remember-me" class=""
-                    ><span>Keep me logged in</span>
+                    ><span>Remember me</span>
                     <span
                       ><input
                         id="remember-me"
@@ -89,11 +91,12 @@
                     type="button"
                     name="submit"
                     class="btn btn-primary btn-md submit-data"
-                    value="Login"
+                    value="Sign Up"
                   />
+                  
                 </div>
                 <div id="register-link" class="text-right">
-                  <a href="signup.html" class="text-primary">Sign up</a>
+                  <a href="login.html" class="text-primary">Login</a>
                 </div>
               </form>
             </div>
