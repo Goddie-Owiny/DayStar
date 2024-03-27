@@ -13,16 +13,13 @@ body {
   font-size: xx-large;
 }
 
-/* .logo{
+.logo{
   position: relative;
   display: grid;
-  margin: auto;
-  width: 100px; 
-  height: 100px;
   border-radius: 50%;
   border: 1px solid #a84316;
 
-} */
+}
 
 #apple-logo{
   position: relative;
@@ -90,5 +87,38 @@ body {
   top: 0px;
 }
 
+.carousel-item img {
+  height: 100vh;
+
+  object-fit: cover;
+}
 
 /* login & sign up */
+
+/* Navigation Bar */
+.navbar .dayStar-logo{
+  font-family: 'mali';
+  font-weight: bolder;
+  font-size: 1.5rem;
+  color: #a84316;
+  transition: all 90ms;
+}
+
+.navbar .dayStar-logo:hover{
+  color: #a84316;
+  transform: scale(1.1);
+}
+
+.nav-link{
+  color: red;
+}
+
+
+.navbar-toggler{
+  padding: 0.1rem;
+  background: rgb(209, 205, 205);
+  
+}
+
+
+/* Navigation bar */
