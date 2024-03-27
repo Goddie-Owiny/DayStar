@@ -109,9 +109,6 @@ body {
   transform: scale(1.1);
 }
 
-.nav-link{
-  color: red;
-}
 
 
 .navbar-toggler{
@@ -122,3 +119,75 @@ body {
 
 
 /* Navigation bar */
+
+
+#centered-text {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  padding: 0.5rem 1rem;
+  z-index: 3;
+  transform: translate(-50%, -50%);
+}
+
+#centered-text h1{
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+
+}
+
+#centered-text h6{
+  text-align: center;
+}
+
+
+
+#centered {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  padding: 0.5rem 1rem;
+  z-index: 3;
+  transform: translate(-50%, -50%);
+}
+
+#centered button{
+  color: black; 
+  padding: 1.2rem 3rem;
+  border-radius: 4rem;
+  margin: 1rem;
+  font-size: 3ch;
+  font-family: 'mali';
+  transition: all 90ms;
+}
+
+#centered .login{
+  background-color: #a84316;
+  color: white;
+  border: none;
+  
+}
+
+#centered .login:hover{
+  background-color: #8e4323;
+  box-shadow: 0 11px 34px 0 rgba(0,0,0,.2);
+  color: white;
+  transform: scale(1.1);
+  
+}
+
+#centered .signUp{
+  background-color: rgb(34, 125, 141);
+  color: white;
+  border: none;
+  
+}
+
+#centered .signUp:hover{
+  background-color: rgb(22, 86, 97);
+  box-shadow: 0 11px 34px 0 rgba(0,0,0,.2);
+  color: white;
+  transform: scale(1.1);
+
+}
