@@ -26,12 +26,12 @@
   </head>
   <body>
     <section class="h-100 h-custom" style="background-color: rgb(22, 86, 97)">
-      <div class="container py-5 ">
+      <div class="container py-5">
         <div class="row d-flex justify-content-center align-items-center h-100">
           <div class="col-lg-8 col-xl-6">
             <div class="card rounded-3">
               <img
-                src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-registration/img3.webp"
+                src="./images/carousel_1.1.jpg"
                 class="w-100"
                 style="
                   border-top-left-radius: 0.3rem;
@@ -40,69 +40,113 @@
                 alt="Sample photo"
               />
               <div class="card-body p-4 p-md-5">
-                <h3 class="mb-4 pb-2 pb-md-0 mb-md-5 px-md-2">
-                  Registration Info
-                </h3>
+                <h3 class="mb-3 pb-md-0 mb-md-5 px-md-2 text-center">Registration Info</h3>
 
                 <form class="px-md-2">
-                  <div class="form-outline mb-4">
-                    <input
+                  <div class="row">
+                    <div class="form-outline col-md-6 mb-3">
+                      <label class="form-label" for="form3Example1w"
+                            >First Name
+                            <span class="required">*</span></label
+                          >
+                      <input
                       type="text"
-                      id="form3Example1q"
+                      id="form3Example1w"
                       class="form-control"
                     />
-                    <label class="form-label" for="form3Example1q">Name</label>
-                  </div>
-
-                  <div class="row">
-                    <div class="col-md-6 mb-4">
-                      <div class="form-outline datepicker">
-                        <input
-                          type="text"
-                          class="form-control"
-                          id="exampleDatepicker1"
-                        />
-                        <label for="exampleDatepicker1" class="form-label"
-                          >Select a date</label
-                        >
-                      </div>
                     </div>
-                    <div class="col-md-6 mb-4">
-                      <select class="select p-1">
-                        <option class="select-item" value="1" disabled>Gender</option>
-                        <option class="select-item" value="2">Female</option>
-                        <option value="3">Male</option>
-                        <option value="4">Other</option>
-                      </select>
+                    <div class="form-outline col-md-6 mb-3">
+                      <label class="form-label" for="form3Example1w"
+                            >Given Name
+                            <span class="required">*</span></label
+                          >
+                      <input
+                      type="text"
+                      id="form3Example1w"
+                      class="form-control"
+                    />
                     </div>
-                  </div>
 
-                  <div class="mb-4">
-                    <select class="select p-1">
-                      <option value="1" disabled>Class</option>
-                      <option value="2">Class 1</option>
-                      <option value="3">Class 2</option>
-                      <option value="4">Class 3</option>
-                    </select>
                   </div>
-
-                  <div class="row mb-4 pb-2 pb-md-0 mb-md-5">
+                  <div class="row pb-2 pb-md-0">
                     <div class="col-md-6">
                       <div class="form-outline">
+                        <label class="form-label" for="form3Example1w"
+                          >Sitter's Code
+                          <span class="required">*</span></label
+                        >
                         <input
                           type="text"
                           id="form3Example1w"
                           class="form-control"
                         />
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-outline">
                         <label class="form-label" for="form3Example1w"
-                          >Registration code</label
+                          >National ID:
+                          <span class="required">*</span></label
                         >
+                        <input
+                          type="text"
+                          id="form3Example1w"
+                          class="form-control"
+                        />
                       </div>
                     </div>
                   </div>
 
-                  <button type="submit" class="btn btn-success btn-lg mb-1">
-                    Submit
+                  <div class="row">
+                    <div class="col-md-6 mt-3">
+                      <div class="form-outline datepicker">
+                        <label for="exampleDatepicker1" class="form-label"
+                          >Select Date Of Birth</label
+                        >
+                        <input
+                          type="date"
+                          class="form-control"
+                          id="exampleDatepicker1"
+                        />
+                      </div>
+                    </div>
+                    <div class="col-md-3 mt-5">
+                      <select class="select p-1">
+                        <option value="1" class="select">Gender</option>
+                        <option value="2">Female</option>
+                        <option value="3">Male</option>
+                        <option value="4">Other</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="row mt-3">
+                    <div class="col-md-6 mb-4 mt-5">
+                      <select class="select pb-2">
+                        <option value="1">
+                          Location Within town<span class="required">*</span>
+                        </option>
+                        <option value="2">Lower Kabalagala</option>
+                        <option value="3">Nsambya</option>
+                        <option value="4">Makindye</option>
+                      </select>
+                    </div>
+                    <div class="col-md-6 mb-4 mt-3">
+                      <div class="form-outline">
+                        <label class="form-label" for="form3Example1w"
+                          >Contact:
+                          <span class="required">*</span></label
+                        >
+                        <input
+                          type="tel"
+                          id="form3Example1w"
+                          class="form-control"
+                        />
+                      </div>
+                    </div>
+                  </div>
+
+                  <button type="submit" id="submit-data" class="btn btn-outline-info btn-lg mb-1">
+                    Next <span><i class="bi-search icon"></i></span>
                   </button>
                 </form>
               </div>
