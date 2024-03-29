@@ -52,7 +52,7 @@ body {
   margin-top: -85px;
 }
 
-.required {
+.required, option .required {
   color: red;
 }
 
@@ -120,7 +120,6 @@ body {
 
 /* Navigation bar */
 
-
 #centered-text {
   position: absolute;
   top: 30%;
@@ -131,14 +130,17 @@ body {
 }
 
 #centered-text h1{
-  font-size: 2rem;
+  font-size: 2.4rem;
   text-align: center;
   font-weight: bold;
+  color: rgb(22, 86, 97);
 
 }
 
 #centered-text h6{
   text-align: center;
+  color: #8e4323;
+  font-family: 'mali';
 }
 
 
@@ -191,3 +193,24 @@ body {
   transform: scale(1.1);
 
 }
+
+/* login and sign up */
+#submit-data
+{
+  background-color: rgb(22, 86, 97);
+  border: none;
+  padding:  0.5rem 1rem;
+  color: white;
+}
+
+#submit-data:hover{
+  background-color: rgb(34, 125, 141);
+  color: white;
+}
+
+a{
+  color:rgb(22, 86, 97);
+}
+/*  */
+
+/* registry page */
