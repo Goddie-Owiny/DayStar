@@ -7,40 +7,39 @@ body {
 
 /* Login & sign up */
 #login h4 {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
   color: #a84316;
   font-weight: bolder;
   font-size: xx-large;
 }
 
-.logo{
+.logo {
   position: relative;
   display: grid;
   border-radius: 50%;
   border: 1px solid #a84316;
-
 }
 
-#apple-logo{
+#apple-logo {
   position: relative;
   display: grid;
   margin: auto;
 }
-
 
 #login .container #login-row #login-column #login-box {
   margin-top: 10px;
   max-width: 500px;
   height: max-content;
   background-color: #ffffff;
-  box-shadow: 0 11px 34px 0 rgba(0,0,0,.2);
+  box-shadow: 0 11px 34px 0 rgba(0, 0, 0, 0.2);
   border-radius: 34px;
   padding-bottom: 2rem;
 }
 #login .container #login-row #login-column #login-box #login-form {
   padding: 3rem;
 }
-
 
 #login
   .container
@@ -52,16 +51,15 @@ body {
   margin-top: -85px;
 }
 
-.required, option .required {
+.required,
+option .required {
   color: red;
 }
 
-.footer{
-  
+.footer {
   float: bottom;
   background-color: #a84316;
 }
-
 
 .copyright {
   padding: 20px 0px;
@@ -69,22 +67,20 @@ body {
   display: flex;
 }
 
-.copyright .rules{
+.copyright .rules {
   position: absolute;
   right: 50px;
 }
 
-
-.copyright p{ 
+.copyright p {
   color: rgb(225, 222, 222);
   font-size: 60%;
   padding-left: 5px;
 }
 
-.icon{
-  color: red;
-  position: relative; 
-  top: 0px;
+.icon {
+  color: #a84316;
+  position: relative;
 }
 
 .carousel-item img {
@@ -96,27 +92,23 @@ body {
 /* login & sign up */
 
 /* Navigation Bar */
-.navbar .dayStar-logo{
-  font-family: 'mali';
+.navbar .dayStar-logo {
+  font-family: "mali";
   font-weight: bolder;
   font-size: 1.5rem;
   color: #a84316;
   transition: all 90ms;
 }
 
-.navbar .dayStar-logo:hover{
+.navbar .dayStar-logo:hover {
   color: #a84316;
   transform: scale(1.1);
 }
 
-
-
-.navbar-toggler{
+.navbar-toggler {
   padding: 0.1rem;
   background: rgb(209, 205, 205);
-  
 }
-
 
 /* Navigation bar */
 
@@ -129,21 +121,18 @@ body {
   transform: translate(-50%, -50%);
 }
 
-#centered-text h1{
+#centered-text h1 {
   font-size: 2.4rem;
   text-align: center;
   font-weight: bold;
   color: rgb(22, 86, 97);
-
 }
 
-#centered-text h6{
+#centered-text h6 {
   text-align: center;
   color: #8e4323;
-  font-family: 'mali';
+  font-family: "mali";
 }
-
-
 
 #centered {
   position: absolute;
@@ -154,63 +143,128 @@ body {
   transform: translate(-50%, -50%);
 }
 
-#centered button{
-  color: black; 
+#centered button {
+  color: black;
   padding: 1.2rem 3rem;
   border-radius: 4rem;
   margin: 1rem;
   font-size: 3ch;
-  font-family: 'mali';
+  font-family: "mali";
   transition: all 90ms;
 }
 
-#centered .login{
+#centered .login {
   background-color: #a84316;
   color: white;
   border: none;
-  
 }
 
-#centered .login:hover{
+#centered .login:hover {
   background-color: #8e4323;
-  box-shadow: 0 11px 34px 0 rgba(0,0,0,.2);
+  box-shadow: 0 11px 34px 0 rgba(0, 0, 0, 0.2);
   color: white;
   transform: scale(1.1);
-  
 }
 
-#centered .signUp{
+#centered .signUp {
   background-color: rgb(34, 125, 141);
   color: white;
   border: none;
-  
 }
 
-#centered .signUp:hover{
+#centered .signUp:hover {
   background-color: rgb(22, 86, 97);
-  box-shadow: 0 11px 34px 0 rgba(0,0,0,.2);
+  box-shadow: 0 11px 34px 0 rgba(0, 0, 0, 0.2);
   color: white;
   transform: scale(1.1);
+}
 
+.row .col-3{
+  display: grid;
+  margin: auto;
+  justify-content: center;
 }
 
 /* login and sign up */
-#submit-data
-{
+#submit-data {
   background-color: rgb(22, 86, 97);
   border: none;
-  padding:  0.5rem 1rem;
+  padding: 0.5rem 1rem;
   color: white;
 }
 
-#submit-data:hover{
+#submit-data:hover {
   background-color: rgb(34, 125, 141);
   color: white;
 }
 
-a{
-  color:rgb(22, 86, 97);
+form a {
+  color: #a84316;
 }
 /*  */
 
 /* registry page */
+.card-body .text-center {
+  color: #a84316;
+}
+
+#back {
+  background: #a84316;
+  display: inline-block;
+  position: absolute;
+  padding: 0.5rem 1rem;
+  left: -10rem;
+  bottom: 0.5rem;
+  color: black;
+}
+
+#back:hover {
+  background: #8e4323;
+}
+
+#back .icon {
+  color: white;
+  padding: 0 0.5rem 0 0.5rem
+}
+
+
+/* Dashboard */
+.offcanvas-header{
+  background-color: #a84316;
+}
+
+.offcanvas-header h5{
+  color: white;
+  font-family: 'mali';
+  font-weight: 900;
+}
+
+.offcanvas-body{
+  background: rgb(22, 86, 97);
+}
+
+.offcanvas-body ul li .nav-link{
+  color: white;
+  font-size: larger;
+  padding: 1rem 0 1rem 1rem;
+  border-radius: 15px;
+}
+
+.nar-link{
+  padding: 4rem;
+}
+
+.offcanvas-body ul li .nav-link:hover{
+  background-color: #8e4323;
+  box-shadow: 0 11px 34px 0 rgba(0, 0, 0, 0.2);
+  transform: scale(1.1);
+  transition: all 90ms;
+}
+
+.dropdown-menu{
+  background-color: #8e4323;
+}
+
+.dropdown-menu li{
+  background-color: aqua;
+}
