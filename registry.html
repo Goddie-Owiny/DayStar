@@ -39,19 +39,20 @@
                 "
                 alt="Sample photo"
               />
-              <div class="card-body p-4 p-md-5">
-                <h3 class="mb-3 pb-md-0 mb-md-5 px-md-2 text-center">Registration Info</h3>
+              <div class="card-body pr-5 pl-5 p-md-5">
+                <h3 class="mb-3 pb-md-0 mb-md-5 px-md-2 text-center">Sitter Registration</h3>
 
-                <form class="px-md-2">
+                <form class="px-md-2" method="Post" action="/">
                   <div class="row">
                     <div class="form-outline col-md-6 mb-3">
-                      <label class="form-label" for="form3Example1w"
+                      <label class="form-label" for="form3Example1w" 
                             >First Name
                             <span class="required">*</span></label
                           >
                       <input
                       type="text"
                       id="form3Example1w"
+                      required="true"
                       class="form-control"
                     />
                     </div>
@@ -63,6 +64,7 @@
                       <input
                       type="text"
                       id="form3Example1w"
+                      required="true"
                       class="form-control"
                     />
                     </div>
@@ -78,6 +80,7 @@
                         <input
                           type="text"
                           id="form3Example1w"
+                          required="true"
                           class="form-control"
                         />
                       </div>
@@ -91,6 +94,7 @@
                         <input
                           type="text"
                           id="form3Example1w"
+                          required="true"
                           class="form-control"
                         />
                       </div>
@@ -107,12 +111,13 @@
                           type="date"
                           class="form-control"
                           id="exampleDatepicker1"
+                          required="true"
                         />
                       </div>
                     </div>
-                    <div class="col-md-3 mt-5">
+                    <div class="col-md-6 mt-5">
                       <select class="select p-1">
-                        <option value="1" class="select">Gender</option>
+                        <option value="1"  required="true" class="select">Gender</option>
                         <option value="2">Female</option>
                         <option value="3">Male</option>
                         <option value="4">Other</option>
@@ -139,18 +144,21 @@
                         <input
                           type="tel"
                           id="form3Example1w"
-                          class="form-control"
+                          required="true"
+                          class="form-control" placeholder="+256 XXX XXX XXX" name="contact"
                         />
                       </div>
                     </div>
                   </div>
 
-                  <button type="submit" id="submit-data" class="btn btn-outline-info btn-lg mb-1">
-                    Next <span><i class="bi-search icon"></i></span>
+                  <button type="submit" id="submit-data" class="btn btn-outline-info float-right btn-lg mb-1">
+                    Next <span><i class="bi-arrow-right icon"></i></span>
                   </button>
+                  <a href="">Clear Form</a>
                 </form>
               </div>
             </div>
+            <a href="/dashboard.html" id="back" class="btn btn-sm mb-1"><span><i class="bi-arrow-left icon"></i></span>Back</a>
           </div>
         </div>
       </div>
