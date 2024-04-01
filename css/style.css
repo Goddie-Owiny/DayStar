@@ -179,7 +179,7 @@ option .required {
   transform: scale(1.1);
 }
 
-.row .col-3{
+.row .col-3 {
   display: grid;
   margin: auto;
   justify-content: center;
@@ -224,47 +224,52 @@ form a {
 
 #back .icon {
   color: white;
-  padding: 0 0.5rem 0 0.5rem
+  padding: 0 0.5rem 0 0.5rem;
 }
-
 
 /* Dashboard */
-.offcanvas-header{
-  background-color: #a84316;
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  padding: 58px 0 0; /* Height of navbar */
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%), 0 2px 10px 0 rgb(0 0 0 / 5%);
+  width: 240px;
+  z-index: 600;
 }
 
-.offcanvas-header h5{
-  color: white;
-  font-family: 'mali';
-  font-weight: 900;
+@media (max-width: 991.98px) {
+  .sidebar {
+    width: 100%;
+  }
+}
+.sidebar .active {
+  border-radius: 5px;
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
 }
 
-.offcanvas-body{
-  background: rgb(22, 86, 97);
+
+
+.sidebar-sticky {
+  position: absolute;
+  top: 0;
+  height: calc(100vh - 48px);
+  padding-top: 0.5rem;
+  overflow-x: auto;
+  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
 }
 
-.offcanvas-body ul li .nav-link{
-  color: white;
-  font-size: larger;
-  padding: 1rem 0 1rem 1rem;
-  border-radius: 15px;
-}
-
-.nar-link{
-  padding: 4rem;
-}
-
-.offcanvas-body ul li .nav-link:hover{
-  background-color: #8e4323;
-  box-shadow: 0 11px 34px 0 rgba(0, 0, 0, 0.2);
-  transform: scale(1.1);
-  transition: all 90ms;
-}
-
-.dropdown-menu{
-  background-color: #8e4323;
-}
-
-.dropdown-menu li{
-  background-color: aqua;
+.nav-item .badge {
+  position: absolute;
+  top: 0;
+  margin-left: -15px;
+  display: inline;
+  padding: 0.15em 0.35em;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: center;
+  border-radius: 0.25rem;
 }
