@@ -227,37 +227,45 @@ form a {
   padding: 0 0.5rem 0 0.5rem;
 }
 
-/* Dashboard */
+/* sideNav */
 .sidebar {
   position: fixed;
   top: 0;
   bottom: 0;
   left: 0;
-  padding: 58px 0 0; /* Height of navbar */
-  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%), 0 2px 10px 0 rgb(0 0 0 / 5%);
-  width: 240px;
-  z-index: 600;
+  z-index: 100;
+  background: #8e4323;
+  width: 250px;
+  overflow-y: auto;
 }
 
-@media (max-width: 991.98px) {
+#sidebarMenu {
+  top: 2cm;
+}
+
+.sidebar .list-group-item {
+  padding: 0px 20px;
+}
+
+.sidebar .list-group-item:hover {
+  background-color: #f8f9fa;
+}
+
+.content {
+  margin-left: 250px;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
   .sidebar {
-    width: 100%;
+    width: 80%;
+    position: absolute;
+    height: auto;
   }
-}
-.sidebar .active {
-  border-radius: 5px;
-  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
-}
 
-
-
-.sidebar-sticky {
-  position: absolute;
-  top: 0;
-  height: calc(100vh - 48px);
-  padding-top: 0.5rem;
-  overflow-x: auto;
-  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+  .content {
+    margin-left: 0;
+  }
 }
 
 .nav-item .badge {
