@@ -17,7 +17,7 @@ body {
 
 .logo {
   position: relative;
-  display: grid;
+  display: block;
   border-radius: 50%;
   border: 1px solid #a84316;
 }
@@ -76,9 +76,9 @@ option .required {
   right: 50px;
 }
 
-.copyright p {
+.copyright p, .copyright a {
   color: rgb(225, 222, 222);
-  font-size: 60%;
+  font-size: 80%;
   padding-left: 5px;
 }
 
@@ -96,7 +96,7 @@ option .required {
 /* login & sign up */
 
 /* Navigation Bar */
-.navbar .dayStar-logo {
+header .dayStar-logo {
   font-family: "mali";
   font-weight: bolder;
   font-size: 1.5rem;
@@ -104,9 +104,9 @@ option .required {
   transition: all 90ms;
 }
 
-.navbar .dayStar-logo:hover {
+header .dayStar-logo:hover {
   color: #a84316;
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .navbar-toggler {
