@@ -56,6 +56,10 @@ option .required {
   color: red;
 }
 
+/* registry */
+.form-label{
+  margin-bottom: 0.2rem;
+}
 .footer {
   float: bottom;
   background-color: #a84316;
