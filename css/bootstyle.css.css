@@ -4,7 +4,7 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  background: #f6f9ff;
+  background: #9fcfc9;
   color: #444444;
 }
 
@@ -742,6 +742,29 @@ h6 {
 
 .sidebar-nav .nav-content a.active i {
   background-color: #4154f1;
+  
+}
+
+.sitter{
+  background-color: rgb(222, 234, 233);
+  padding: 1rem 2rem;
+  border: 1px solid rgb(194, 189, 189);
+  border-radius: 1rem;
+  transition: all 0.8s;
+}
+
+.sitter:hover{
+  transform: scale(1.1);
+}
+
+.sitter .total-icon{
+  color: black;
+  background: white;
+  font-size: 20px;
+  margin-right: 8px;
+  border: 1px solid white;
+  padding: 4px 5px;
+  border-radius: 50%;
 }
 
 /*--------------------------------------------------------------
