@@ -96,7 +96,7 @@ option .required {
 /* login & sign up */
 
 /* Navigation Bar */
-header .dayStar-logo {
+header .dayStar-logo, .navbar .dayStar-logo {
   font-family: "mali";
   font-weight: bolder;
   font-size: 1.5rem;
@@ -104,7 +104,7 @@ header .dayStar-logo {
   transition: all 90ms;
 }
 
-header .dayStar-logo:hover {
+header .dayStar-logo:hover, .navbar .dayStar-logo:hover {
   color: #a84316;
   transform: scale(1.05);
 }
@@ -270,18 +270,4 @@ form a {
   .content {
     margin-left: 0;
   }
-}
-
-.nav-item .badge {
-  position: absolute;
-  top: 0;
-  margin-left: -15px;
-  display: inline;
-  padding: 0.15em 0.35em;
-  line-height: 1;
-  color: #fff;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: center;
-  border-radius: 0.25rem;
 }

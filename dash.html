@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Dashboard - NiceAdmin Bootstrap Template</title>
+  <title>Dashboard - DayStar</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
   <link
@@ -160,7 +160,7 @@
         <li class="nav-item dropdown pe-3">
 
           <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
-            <img src="assets/img/profile-img.jpg" alt="Profile" class="rounded-circle">
+            <img src="./images/avatar.JPG" alt="Profile" class="rounded-circle">
             <span class="d-none d-md-block dropdown-toggle ps-2">Godfrey</span>
           </a><!-- End Profile Image Icon -->
 
@@ -204,7 +204,7 @@
             </li>
 
             <li>
-              <a class="dropdown-item d-flex align-items-center" href="#">
+              <a class="dropdown-item d-flex align-items-center" href="./index.html">
                 <i class="bi bi-box-arrow-right"></i>
                 <span>Sign Out</span>
               </a>
@@ -232,23 +232,9 @@
 
       <li class="nav-item">
         <a class="nav-link collapsed" data-bs-target="#components-nav" data-bs-toggle="collapse" href="#">
-          <i class="bi bi-menu-button-wide"></i><span>Components</span><i class="bi bi-chevron-down ms-auto"></i>
+          <i class="bi bi-menu-button-wide"></i><span>Registration</span><i class="bi bi-chevron-down ms-auto"></i>
         </a>
         <ul id="components-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
-          <li>
-            <a href="components-alerts.html">
-              <i class="bi bi-circle"></i><span>Alerts</span>
-            </a>
-          </li>
-          
-        </ul>
-      </li><!-- End Components Nav -->
-
-      <li class="nav-item">
-        <a class="nav-link collapsed" data-bs-target="#forms-nav" data-bs-toggle="collapse" href="#">
-          <i class="bi bi-journal-text"></i><span>Registration</span><i class="bi bi-chevron-down ms-auto"></i>
-        </a>
-        <ul id="forms-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
           <li>
             <a href="/registry.html">
               <i class="bi bi-circle"></i><span>Register Sitter</span>
@@ -259,6 +245,25 @@
               <i class="bi bi-circle"></i><span>Register Kid</span>
             </a>
           </li>
+        </ul>
+      </li><!-- End Components Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#forms-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-journal-text"></i><span>Checkins/ Checkouts</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="forms-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="">
+              <i class="bi bi-circle"></i><span>Sitters</span>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <i class="bi bi-circle"></i><span>Kids</span>
+            </a>
+          </li>
+         
           
         </ul>
       </li><!-- End Forms Nav -->
@@ -283,12 +288,12 @@
 
       <li class="nav-item">
         <a class="nav-link collapsed" data-bs-target="#charts-nav" data-bs-toggle="collapse" href="#">
-          <i class="bi bi-bar-chart"></i><span>Charts</span><i class="bi bi-chevron-down ms-auto"></i>
+          <i class="bi bi-bar-chart"></i><span>Inventory</span><i class="bi bi-chevron-down ms-auto"></i>
         </a>
         <ul id="charts-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
           <li>
             <a href="charts-chartjs.html">
-              <i class="bi bi-circle"></i><span>Chart.js</span>
+              <i class="bi bi-circle"></i><span>Charts and Tables</span>
             </a>
           </li>
         </ul>
@@ -299,6 +304,11 @@
           <i class="bi bi-gem"></i><span>Items</span><i class="bi bi-chevron-down ms-auto"></i>
         </a>
         <ul id="icons-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="">
+              <i class="bi bi-circle"></i><span>Stocked</span>
+            </a>
+          </li>
           <li>
             <a href="">
               <i class="bi bi-circle"></i><span>Sold</span>
@@ -332,9 +342,9 @@
       </li><!-- End Contact Page Nav -->
 
       <li class="nav-item">
-        <a class="nav-link collapsed" href="pages-register.html">
+        <a class="nav-link collapsed" href="./signup.html">
           <i class="bi bi-card-list"></i>
-          <span>Register</span>
+          <span>Register Admin</span>
         </a>
       </li><!-- End Register Page Nav -->
 
@@ -351,23 +361,25 @@
   </aside><!-- End Sidebar-->
 
   <main id="main" class="main">
-    <div class="container">
-      <div class="row">
-        <div class="sitter col-md-3 ml-5 mb-3">
-          <h6><span><i class="bi bi-person total-icon"></i></span><strong>Total Toddlers</strong></h6>
-          <span class="text-center">300</span>
-        </div>
-        <div class="sitter col-md-3 ml-5 mb-3">
-          <h6><span><i class="bi bi-people total-icon"></i></span><strong>Total Sitters</strong></h6>
-          <span class="text-center">6630</span>
-        </div>
-        <div class="sitter col-md-3 ml-5 mb-3">
-          <h6><span><i class="bi bi-people total-icon"></i></span><strong>Total Employees</strong></h6>
-          <span class="text-center">1345</span>
-        </div>
+  </main>
+  <div class="container">
+    <div class="row">
+      <div class="sitter col-md-3 d-sm-block ml-5 mb-3">
+        <h6><span><i class="bi bi-person total-icon"></i></span><strong>Total Toddlers</strong></h6>
+        <span class="text-center">300</span>
+      </div>
+      <div class="sitter col-md-3 d-sm-block ml-5 mb-3">
+        <h6><span><i class="bi bi-people total-icon"></i></span><strong>Total Sitters</strong></h6>
+        <span class="text-center">66</span>
+      </div>
+      <div class="sitter col-md-3 d-sm-block ml-5 mb-3">
+        <h6><span><i class="bi bi-people total-icon"></i></span><strong>Total Employees</strong></h6>
+        <span class="text-center text-muted">130</span>
       </div>
     </div>
-  </main>
+  </div>
+    <!-- Table -->
+    
 
     <!-- Footer -->
     <footer class="container-fluid footer mt-3">
@@ -382,11 +394,6 @@
           </div>
         </div>
     </footer>
-
-
-  
-
-  
 
   <script src="/js/main.js"></script>
   <script src="./js/bootstrap.bundle.js"></script>
