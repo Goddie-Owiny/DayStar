@@ -10,7 +10,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
     "Segoe UI Symbol";
-  color: #a84316;
+  color: #a74527;
   font-weight: bolder;
   font-size: xx-large;
 }
@@ -19,7 +19,7 @@ body {
   position: relative;
   display: block;
   border-radius: 50%;
-  border: 1px solid #a84316;
+  border: 1px solid #a74527;
 }
 
 #apple-logo {
@@ -62,7 +62,7 @@ option .required {
 }
 .footer {
   float: bottom;
-  background-color: #a84316;
+  background-color: #a74527;
 }
 
 .copyright {
@@ -83,7 +83,7 @@ option .required {
 }
 
 .icon {
-  color: #a84316;
+  color: #a74527;
   position: relative;
 }
 
@@ -100,18 +100,18 @@ header .dayStar-logo, .navbar .dayStar-logo {
   font-family: "mali";
   font-weight: bolder;
   font-size: 1.5rem;
-  color: #a84316;
+  color: #a74527;
   transition: all 90ms;
 }
 
 header .dayStar-logo:hover, .navbar .dayStar-logo:hover {
-  color: #a84316;
+  color: #a74527;
   transform: scale(1.05);
 }
 
 .navbar-toggler {
   padding: 0.1rem;
-  background: rgb(209, 205, 205);
+  background: #b5b4b4;
 }
 
 /* Navigation bar */
@@ -129,12 +129,12 @@ header .dayStar-logo:hover, .navbar .dayStar-logo:hover {
   font-size: 2.4rem;
   text-align: center;
   font-weight: bold;
-  color: rgb(22, 86, 97);
+  color: #1e7875;
 }
 
 #centered-text h6 {
   text-align: center;
-  color: #8e4323;
+  color: #a74527;
   font-family: "mali";
 }
 
@@ -158,26 +158,26 @@ header .dayStar-logo:hover, .navbar .dayStar-logo:hover {
 }
 
 #centered .login {
-  background-color: #a84316;
+  background-color: #a74527;
   color: white;
   border: none;
 }
 
 #centered .login:hover {
-  background-color: #8e4323;
+  background-color: #d04f24;
   box-shadow: 0 11px 34px 0 rgba(0, 0, 0, 0.2);
   color: white;
   transform: scale(1.1);
 }
 
 #centered .signUp {
-  background-color: rgb(34, 125, 141);
+  background-color: #1e7875;
   color: white;
   border: none;
 }
 
 #centered .signUp:hover {
-  background-color: rgb(22, 86, 97);
+  background-color: rgb(34, 125, 141);
   box-shadow: 0 11px 34px 0 rgba(0, 0, 0, 0.2);
   color: white;
   transform: scale(1.1);
@@ -191,7 +191,7 @@ header .dayStar-logo:hover, .navbar .dayStar-logo:hover {
 
 /* login and sign up */
 #submit-data {
-  background-color: rgb(22, 86, 97);
+  background-color: #1e7875;
   border: none;
   padding: 0.5rem 1rem;
   color: white;
@@ -203,17 +203,17 @@ header .dayStar-logo:hover, .navbar .dayStar-logo:hover {
 }
 
 form a {
-  color: #a84316;
+  color: #a74527;
 }
 /*  */
 
 /* registry page */
 .card-body .text-center {
-  color: #a84316;
+  color: #a74527;
 }
 
 #back {
-  background: #a84316;
+  background: #a74527;
   display: inline-block;
   position: absolute;
   padding: 0.5rem 1rem;
@@ -223,7 +223,7 @@ form a {
 }
 
 #back:hover {
-  background: #8e4323;
+  background: #a74527;
 }
 
 #back .icon {
@@ -238,7 +238,7 @@ form a {
   bottom: 0;
   left: 0;
   z-index: 100;
-  background: #8e4323;
+  background: #a74527;
   width: 250px;
   overflow-y: auto;
 }

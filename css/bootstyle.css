@@ -4,7 +4,6 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  background: #9fcfc9;
   color: #444444;
 }
 
@@ -599,7 +598,7 @@ h6 {
   scrollbar-width: thin;
   scrollbar-color: #aab7cf transparent;
   box-shadow: 0px 0px 20px rgba(1, 41, 112, 0.1);
-  background-color: rgb(222, 234, 233);
+  background-color: #1e7875;
 }
 
 @media (max-width: 1199px) {
@@ -671,35 +670,34 @@ h6 {
   align-items: center;
   font-size: 15px;
   font-weight: 600;
-  color: rgb(22, 86, 97);
+  color: white;
   transition: 0.3;
-  background: #f1f2f6;
   padding: 10px 15px;
   border-radius: 4px;
 }
 
+
 .sidebar-nav .nav-link i {
   font-size: 16px;
   margin-right: 10px;
-  color: #4154f1;
+  color: white;
 }
 
 .sidebar-nav .nav-link.collapsed {
-  color: rgb(22, 86, 97);
-  background: #fff;
+  color: white;
 }
 
 .sidebar-nav .nav-link.collapsed i {
-  color: #899bbd;
+  color: white;
 }
 
 .sidebar-nav .nav-link:hover {
-  color: #4154f1;
+  color: #a74527;
   background: #f6f9ff;
 }
 
 .sidebar-nav .nav-link:hover i {
-  color: #4154f1;
+  color: #a74527;
 }
 
 .sidebar-nav .nav-link .bi-chevron-down {
@@ -722,7 +720,7 @@ h6 {
   align-items: center;
   font-size: 14px;
   font-weight: 600;
-  color: #012970;
+  color: #700101;
   transition: 0.3;
   padding: 10px 0 10px 40px;
   transition: 0.3s;
@@ -746,11 +744,19 @@ h6 {
 }
 
 .sitter{
-  background-color: rgb(222, 234, 233);
-  padding: 1rem 2rem;
+  padding: 1rem 1.5rem;
   border: 1px solid rgb(194, 189, 189);
   border-radius: 1rem;
   transition: all 0.8s;
+}
+
+.sitter:nth-child(odd){
+  background-color: #b5b4b4;
+}
+
+.sitter:nth-child(even){
+  background-color: #a74527;
+  color: white;
 }
 
 .sitter:hover{
@@ -759,7 +765,7 @@ h6 {
 }
 
 .sitter .total-icon{
-  color: #a84316;
+  color: #a74527;
   background: white;
   font-size: 20px;
   margin-right: 8px;
@@ -767,6 +773,36 @@ h6 {
   padding: 4px 5px;
   border-radius: 50%;
 }
+
+
+/*--------------------------------------------------------------
+# Sitter Table
+--------------------------------------------------------------*/
+.sitter-table {
+  width: 100%;
+  border-collapse: separate;
+  border-radius: 15px;
+  box-shadow: 0 11px 34px 0 rgba(0, 0, 0, 0.2);
+}
+
+tr:hover{
+  padding: 10px 15px;
+  background: #b5b4b4;
+  transition: all 0.8s;
+}
+
+
+.sitter-table thead tr {
+  background-color: #1e7875;
+  color: white;
+}
+
+td:hover{
+  background-color: #a74527;
+  color: white;
+  transition: all 0.8s;
+}
+
 
 /*--------------------------------------------------------------
 # Dashboard
