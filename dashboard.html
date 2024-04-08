@@ -28,7 +28,7 @@
     />
 
   <!-- Main CSS File -->
-  <link href="/css/bootstyle.css" rel="stylesheet">
+  <link href="/css/bootstyle.css.css" rel="stylesheet">
 </head>
 
 <body>
@@ -223,8 +223,8 @@
 
     <ul class="sidebar-nav" id="sidebar-nav">
 
-      <li class="nav-item active">
-        <a class="nav-link " href="dashboard.html">
+      <li class="nav-item">
+        <a class="nav-link " href="dash.html">
           <i class="bi bi-grid"></i>
           <span>Dashboard</span>
         </a>
@@ -343,104 +343,46 @@
 
       <li class="nav-item">
         <a class="nav-link collapsed" href="./signup.html">
-          <i class="bi bi-person-plus"></i>
-          <span>Add Admin</span>
+          <i class="bi bi-card-list"></i>
+          <span>Register Admin</span>
         </a>
       </li><!-- End Register Page Nav -->
 
       <li class="nav-item">
-        <a class="nav-link collapsed" href="/index.html">
-          <i class="bi bi-box-arrow-right"></i>
-          <span>Sign Out</span>
+        <a class="nav-link collapsed" href="pages-login.html">
+          <i class="bi bi-box-arrow-in-right"></i>
+          <span>Login</span>
         </a>
       </li><!-- End Login Page Nav -->
+
+    
     </ul>
 
   </aside><!-- End Sidebar-->
 
   <main id="main" class="main">
-    <div class="container">
-      <div class="row">
-        <div class="sitter col-md-2 d-md-block ml-5 mb-3">
-          <p><span><i class="bi bi-person total-icon"></i></span><strong>Toddlers</strong></p>
-          <h2 class="text-center mt-3">300</h2>
-        </div>
-        <div class="sitter col-md-2 d-md-block ml-5 mb-3">
-          <p><span><i class="bi bi-people total-icon"></i></span><strong>Sitters</strong></p>
-          <h2 class="text-center text-bold">80</h2>
-        </div>
-        <div class="sitter col-md-2 d-md-block ml-5 mb-3">
-          <p><span><i class="bi bi-people total-icon"></i></span><strong>Employees</strong></p>
-          <h2 class="text-center">130</h2>
-        </div>
-        <div class="sitter col-md-2 d-md-block ml-5 mb-3">
-          <p><span><i class="bi bi-people total-icon"></i></span><strong>Inventories</strong></p>
-          <h2 class="text-center">$2130</h2>
-        </div>
-      </div>
-    </div> <hr>
-    <!-- Table -->
-    <div class="col-9 sitter-table p-3">
-      <table class="table table-caption-top table-hover">
-          <thead>
-            <tr>
-              <th scope="col">#</th>
-              <th scope="col">First</th>
-              <th scope="col">Last</th>
-              <th scope="col">Handle</th>
-              <th scope="col">salary</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th scope="row">1</th>
-              <td>Mark</td>
-              <td>Otto</td>
-              <td>@mdo</td>
-              <td>15000 Daily</td>
-            </tr>
-            <tr>
-              <th scope="row">2</th>
-              <td>Jacob</td>
-              <td>Thornton</td>
-              <td>@fat</td>
-              <td>105000 Weekly</td>
-            </tr>
-            <tr>
-              <th scope="row">3</th>
-              <td>Larry the Bird</td>
-              <td>@twitter</td>
-              <td>LarryBird</td>
-              <td>45000 Monthly</td>
-            </tr>
-            <tr>
-              <th scope="row">4</th>
-              <td>Mark</td>
-              <td>Otto</td>
-              <td>@mdo</td>
-              <td>105000 Weekly</td>
-            </tr>
-            <tr>
-              <th scope="row">5</th>
-              <td>Jacob</td>
-              <td>Thornton</td>
-              <td>@fat</td>
-              <td>45000 Monthly</td>
-            </tr>
-            <tr>
-              <th scope="row">6</th>
-              <td>The Bird</td>
-              <td>@twitter</td>
-              <td>@theBirdguy</td>
-              <td>15000 Daily</td>
-            </tr>
-          </tbody>
-      </table>
-    </div>
   </main>
+  <div class="container">
+    <div class="row">
+      <div class="sitter col-md-3 d-sm-block ml-5 mb-3">
+        <h6><span><i class="bi bi-person total-icon"></i></span><strong>Total Toddlers</strong></h6>
+        <span class="text-center">300</span>
+      </div>
+      <div class="sitter col-md-3 d-sm-block ml-5 mb-3">
+        <h6><span><i class="bi bi-people total-icon"></i></span><strong>Total Sitters</strong></h6>
+        <span class="text-center">66</span>
+      </div>
+      <div class="sitter col-md-3 d-sm-block ml-5 mb-3">
+        <h6><span><i class="bi bi-people total-icon"></i></span><strong>Total Employees</strong></h6>
+        <span class="text-center text-muted">130</span>
+      </div>
+    </div>
+  </div>
+    <!-- Table -->
+    
 
     <!-- Footer -->
-    <footer class="container-fluid footer fixed-bottom mt-3">
+    <footer class="container-fluid footer mt-3">
         <div class="row">
           <div class="copyright col-7">
             <div class="rules">
@@ -448,7 +390,7 @@
             </div>
           </div>
           <div class="col-5 copyright">
-            <p> Designed by<a target="_blank" href="https://github.com/dashboard"><strong>@Goddie</strong></a></p>
+            <p> Designed by<a href="https://github.com/dashboard">@Goddie</a></p>
           </div>
         </div>
     </footer>
