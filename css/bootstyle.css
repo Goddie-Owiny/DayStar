@@ -4,7 +4,6 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  background: #9fcfc9;
   color: #444444;
 }
 
@@ -49,12 +48,12 @@ h6 {
   margin-bottom: 10px;
 }
 
-.pagetitle h1 {
+/* .pagetitle h1 {
   font-size: 24px;
   margin-bottom: 0;
   font-weight: 600;
   color: #012970;
-}
+} */
 
 /*--------------------------------------------------------------
 # Back to top button
@@ -170,7 +169,7 @@ h6 {
 }
 
 /* Light Backgrounds */
-.bg-primary-light {
+/* .bg-primary-light {
   background-color: #cfe2ff;
   border-color: #cfe2ff;
 }
@@ -203,10 +202,10 @@ h6 {
 .bg-dark-light {
   background-color: #d3d3d4;
   border-color: #d3d3d4;
-}
+} */
 
 /* Card */
-.card {
+/* .card {
   margin-bottom: 30px;
   border: none;
   border-radius: 5px;
@@ -244,24 +243,24 @@ h6 {
 }
 
 /* Alerts */
-.alert-heading {
+/* .alert-heading {
   font-weight: 500;
   font-family: "Poppins", sans-serif;
   font-size: 20px;
-}
+} */
 
 /* Close Button */
-.btn-close {
+/* .btn-close {
   background-size: 25%;
 }
 
 .btn-close:focus {
   outline: 0;
   box-shadow: none;
-}
+} */ 
 
 /* Accordion */
-.accordion-item {
+/* .accordion-item {
   border: 1px solid #ebeef4;
 }
 
@@ -290,10 +289,10 @@ h6 {
   padding: 0 0 15px 0;
   color: #3e4f6f;
   font-size: 15px;
-}
+} */
 
 /* Breadcrumbs */
-.breadcrumb {
+/* .breadcrumb {
   font-size: 14px;
   font-family: "Nunito", sans-serif;
   color: #899bbd;
@@ -319,7 +318,7 @@ h6 {
 }
 
 /* Bordered Tabs */
-.nav-tabs-bordered {
+/* .nav-tabs-bordered {
   border-bottom: 2px solid #ebeef4;
 }
 
@@ -332,13 +331,13 @@ h6 {
 .nav-tabs-bordered .nav-link:hover,
 .nav-tabs-bordered .nav-link:focus {
   color: #4154f1;
-}
+} */
 
-.nav-tabs-bordered .nav-link.active {
+/* .nav-tabs-bordered .nav-link.active {
   background-color: #fff;
   color: #4154f1;
   border-bottom: 2px solid #4154f1;
-}
+} */ */
 
 /*--------------------------------------------------------------
 # Header
@@ -591,15 +590,14 @@ h6 {
   top: 60px;
   left: 0;
   bottom: 0;
-  width: 300px;
+  width: 250px;
   z-index: 996;
   transition: all 0.3s;
-  padding: 20px;
   overflow-y: auto;
   scrollbar-width: thin;
   scrollbar-color: #aab7cf transparent;
   box-shadow: 0px 0px 20px rgba(1, 41, 112, 0.1);
-  background-color: rgb(222, 234, 233);
+  background-color: #1e7875;
 }
 
 @media (max-width: 1199px) {
@@ -671,35 +669,35 @@ h6 {
   align-items: center;
   font-size: 15px;
   font-weight: 600;
-  color: rgb(22, 86, 97);
+  color: white;
   transition: 0.3;
-  background: #f1f2f6;
   padding: 10px 15px;
   border-radius: 4px;
 }
 
+
 .sidebar-nav .nav-link i {
   font-size: 16px;
   margin-right: 10px;
-  color: #4154f1;
+  color: white;
 }
 
 .sidebar-nav .nav-link.collapsed {
-  color: rgb(22, 86, 97);
-  background: #fff;
+  color: white;
 }
 
 .sidebar-nav .nav-link.collapsed i {
-  color: #899bbd;
+  color: white;
 }
 
 .sidebar-nav .nav-link:hover {
-  color: #4154f1;
-  background: #f6f9ff;
+  color: #a74527;
+  background: #b5b4b4;
+  border-left: 5px solid #a74527;
 }
 
 .sidebar-nav .nav-link:hover i {
-  color: #4154f1;
+  color: #a74527;
 }
 
 .sidebar-nav .nav-link .bi-chevron-down {
@@ -722,7 +720,7 @@ h6 {
   align-items: center;
   font-size: 14px;
   font-weight: 600;
-  color: #012970;
+  color: #c19494;
   transition: 0.3;
   padding: 10px 0 10px 40px;
   transition: 0.3s;
@@ -746,11 +744,19 @@ h6 {
 }
 
 .sitter{
-  background-color: rgb(222, 234, 233);
-  padding: 1rem 2rem;
+  padding: 1rem 1.5rem;
   border: 1px solid rgb(194, 189, 189);
   border-radius: 1rem;
   transition: all 0.8s;
+}
+
+.sitter:nth-child(odd){
+  background-color: #b5b4b4;
+}
+
+.sitter:nth-child(even){
+  background-color: #a74527;
+  color: white;
 }
 
 .sitter:hover{
@@ -759,7 +765,7 @@ h6 {
 }
 
 .sitter .total-icon{
-  color: #a84316;
+  color: #a74527;
   background: white;
   font-size: 20px;
   margin-right: 8px;
@@ -767,6 +773,36 @@ h6 {
   padding: 4px 5px;
   border-radius: 50%;
 }
+
+
+/*--------------------------------------------------------------
+# Sitter Table
+--------------------------------------------------------------*/
+.sitter-table {
+  width: 100%;
+  border-collapse: separate;
+  border-radius: 15px;
+  box-shadow: 0 11px 34px 0 rgba(0, 0, 0, 0.2);
+}
+
+tr:hover{
+  padding: 10px 15px;
+  background: #b5b4b4;
+  transition: all 0.8s;
+}
+
+
+.sitter-table thead tr {
+  background-color: #1e7875;
+  color: white;
+}
+
+td:hover{
+  background-color: #a74527;
+  color: white;
+  transition: all 0.8s;
+}
+
 
 /*--------------------------------------------------------------
 # Dashboard
