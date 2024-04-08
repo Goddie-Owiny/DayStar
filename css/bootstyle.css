@@ -691,9 +691,8 @@ h6 {
 }
 
 .sidebar-nav .nav-link:hover {
-  color: #a74527;
-  background: #b5b4b4;
-  border-left: 5px solid #a74527;
+  color: #4154f1;
+  background: #f6f9ff;
 }
 
 .sidebar-nav .nav-link:hover i {
@@ -720,7 +719,7 @@ h6 {
   align-items: center;
   font-size: 14px;
   font-weight: 600;
-  color: #c19494;
+  color: #012970;
   transition: 0.3;
   padding: 10px 0 10px 40px;
   transition: 0.3s;
