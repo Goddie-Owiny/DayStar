@@ -257,7 +257,7 @@ h6 {
 .btn-close:focus {
   outline: 0;
   box-shadow: none;
-} */ 
+} */
 
 /* Accordion */
 /* .accordion-item {
@@ -337,7 +337,8 @@ h6 {
   background-color: #fff;
   color: #4154f1;
   border-bottom: 2px solid #4154f1;
-} */ */
+} */
+*/
 
 /*--------------------------------------------------------------
 # Header
@@ -675,7 +676,6 @@ h6 {
   border-radius: 4px;
 }
 
-
 .sidebar-nav .nav-link i {
   font-size: 16px;
   margin-right: 10px;
@@ -741,31 +741,30 @@ h6 {
 
 .sidebar-nav .nav-content a.active i {
   background-color: #4154f1;
-  
 }
 
-.sitter{
+.sitter {
   padding: 1rem 1.5rem;
   border: 1px solid rgb(194, 189, 189);
   border-radius: 1rem;
   transition: all 0.8s;
 }
 
-.sitter:nth-child(odd){
+.sitter:nth-child(odd) {
   background-color: #b5b4b4;
 }
 
-.sitter:nth-child(even){
+.sitter:nth-child(even) {
   background-color: #a74527;
   color: white;
 }
 
-.sitter:hover{
+.sitter:hover {
   box-shadow: 0 11px 34px 0 rgba(0, 0, 0, 0.2);
   transform: scale(1.03);
 }
 
-.sitter .total-icon{
+.sitter .total-icon {
   color: #a74527;
   background: white;
   font-size: 20px;
@@ -774,7 +773,6 @@ h6 {
   padding: 4px 5px;
   border-radius: 50%;
 }
-
 
 /*--------------------------------------------------------------
 # Sitter Table
@@ -786,24 +784,57 @@ h6 {
   box-shadow: 0 11px 34px 0 rgba(0, 0, 0, 0.2);
 }
 
-tr:hover{
+tr:hover {
   padding: 10px 15px;
   background: #b5b4b4;
   transition: all 0.8s;
 }
-
 
 .sitter-table thead tr {
   background-color: #1e7875;
   color: white;
 }
 
-td:hover{
-  background-color: #a74527;
+a .btn-lg{
+  align-items: end;
+  background: #a74527;
   color: white;
-  transition: all 0.8s;
+  border-radius: 25px;
+  border: none;
+
 }
 
+a .btn-lg:hover{
+  background: #d04f24;
+  color: white;
+}
+
+th .btn-secondary {
+  background: none;
+  border: none;
+  color: white;
+}
+
+th .btn-secondary:hover,
+th .btn-secondary::after,
+th .btn-secondary:focus {
+  background: none;
+}
+
+td .bi-trash {
+  color: #b5b4b4;
+  font-size: 15px;
+  text-align: center;
+  border: 1px solid #b5b4b4;
+  background: #a74527;
+  padding: 5px 6px;
+  border-radius: 50%;
+}
+
+td .bi-trash:hover {
+  background: #a74527ed;
+  color: white;
+}
 
 /*--------------------------------------------------------------
 # Dashboard
