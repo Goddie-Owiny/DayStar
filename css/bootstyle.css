@@ -48,12 +48,12 @@ h6 {
   margin-bottom: 10px;
 }
 
-/* .pagetitle h1 {
+.pagetitle h1 {
   font-size: 24px;
   margin-bottom: 0;
   font-weight: 600;
   color: #012970;
-} */
+}
 
 /*--------------------------------------------------------------
 # Back to top button
@@ -618,9 +618,8 @@ h6 {
 }
 
 @media (min-width: 1200px) {
-  #main,
-  #footer {
-    margin-left: 300px;
+  #main {
+    margin-left: 14%;
   }
 }
 
@@ -744,6 +743,7 @@ h6 {
 }
 
 .sitter {
+  min-width: fit-content;
   padding: 1rem 1.5rem;
   border: 1px solid rgb(194, 189, 189);
   border-radius: 1rem;
@@ -751,12 +751,12 @@ h6 {
 }
 
 .sitter:nth-child(odd) {
-  background-color: #b5b4b4;
+  background-color: #59b5b5;
 }
 
 .sitter:nth-child(even) {
-  background-color: #a74527;
-  color: white;
+  background-color: #1e7875;
+  color: whitesmoke;
 }
 
 .sitter:hover {
@@ -791,7 +791,7 @@ tr:hover {
 }
 
 .sitter-table thead tr {
-  background-color: #1e7875;
+  background-color: #b5b4b4;
   color: white;
 }
 
@@ -821,7 +821,7 @@ th .btn-secondary:focus {
   background: none;
 }
 
-td .bi-trash {
+td .bi-eye-slash {
   color: #b5b4b4;
   font-size: 15px;
   text-align: center;
@@ -831,7 +831,7 @@ td .bi-trash {
   border-radius: 50%;
 }
 
-td .bi-trash:hover {
+td .bi-eye-slash:hover {
   background: #a74527ed;
   color: white;
 }
