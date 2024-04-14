@@ -11,8 +11,8 @@ body {
     "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
     "Segoe UI Symbol";
   color: #a74527;
-  font-weight: bolder;
-  font-size: xx-large;
+  font-weight: bold;
+  font-size: large;
 }
 
 .logo {
@@ -26,6 +26,14 @@ body {
   position: relative;
   display: grid;
   margin: auto;
+  transition: all 0.5s;
+  padding: 0.3rem;
+  border-radius: 50%;
+}
+
+#apple-logo:hover{
+  border: 1px solid #a74527;
+  padding: 0.3rem;
 }
 
 #login .container #login-row #login-column #login-box {
@@ -37,6 +45,7 @@ body {
   border-radius: 34px;
   padding-bottom: 2rem;
 }
+
 #login .container #login-row #login-column #login-box #login-form {
   padding: 3rem;
 }
